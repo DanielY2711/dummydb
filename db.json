@@ -1,0 +1,259 @@
+{
+    "members": [
+      {
+        "memberid": 1,
+        "username": "john_doe",
+        "password": "password123",
+        "email": "john.doe@example.com"
+      },
+      {
+        "memberid": 2,
+        "username": "alice_smith",
+        "password": "password456",
+        "email": "alice.smith@example.com"
+      },
+      {
+        "memberid": 3,
+        "username": "bob_jones",
+        "password": "password789",
+        "email": "bob.jones@example.com"
+      },
+      {
+        "memberid": 4,
+        "username": "susan_lee",
+        "password": "password101",
+        "email": "susan.lee@example.com"
+      },
+      {
+        "memberid": 5,
+        "username": "david_miller",
+        "password": "password202",
+        "email": "david.miller@example.com"
+      },
+      {
+        "memberid": 6,
+        "username": "emma_wilson",
+        "password": "password303",
+        "email": "emma.wilson@example.com"
+      },
+      {
+        "memberid": 7,
+        "username": "michael_brown",
+        "password": "password404",
+        "email": "michael.brown@example.com"
+      },
+      {
+        "memberid": 8,
+        "username": "linda_davis",
+        "password": "password505",
+        "email": "linda.davis@example.com"
+      },
+      {
+        "memberid": 9,
+        "username": "james_clark",
+        "password": "password606",
+        "email": "james.clark@example.com"
+      },
+      {
+        "memberid": 10,
+        "username": "olivia_martin",
+        "password": "password707",
+        "email": "olivia.martin@example.com"
+      }
+    ],
+    "groups": [
+      {
+        "id": 1,
+        "title": "Hiking Enthusiasts",
+        "description": "A group for people who love hiking and exploring nature.",
+        "members": [1, 2, 3, 4]
+      },
+      {
+        "id": 2,
+        "title": "Tech Innovators",
+        "description": "A group for tech enthusiasts and innovators.",
+        "members": [5, 6, 7, 8]
+      },
+      {
+        "id": 3,
+        "title": "Food Lovers",
+        "description": "A group for people who are passionate about food and cooking.",
+        "members": [2, 4, 6, 9]
+      },
+      {
+        "id": 4,
+        "title": "Book Club",
+        "description": "A group for people who love to read and discuss books.",
+        "members": [1, 3, 5, 10]
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "author": 1,
+        "title": "Top 10 Hiking Trails",
+        "body": "Here are my top 10 favorite hiking trails around the country.",
+        "groupid": 1,
+        "metrics": 45
+      },
+      {
+        "id": 2,
+        "author": 2,
+        "title": "Tech Innovations of 2024",
+        "body": "A look at the most promising tech innovations this year.",
+        "groupid": 2,
+        "metrics": 72
+      },
+      {
+        "id": 3,
+        "author": 3,
+        "title": "Best Gourmet Recipes",
+        "body": "Sharing some of my best gourmet recipes.",
+        "groupid": 3,
+        "metrics": 39
+      },
+      {
+        "id": 4,
+        "author": 4,
+        "title": "Must-Read Books for 2024",
+        "body": "A list of books you shouldn't miss in 2024.",
+        "groupid": 4,
+        "metrics": 58
+      },
+      {
+        "id": 5,
+        "author": 5,
+        "title": "Future of Artificial Intelligence",
+        "body": "A deep dive into the future of AI and machine learning.",
+        "groupid": 2,
+        "metrics": 105
+      },
+      {
+        "id": 6,
+        "author": 6,
+        "title": "Essential Tools for Home Chefs",
+        "body": "The best kitchen tools every home chef should have.",
+        "groupid": 3,
+        "metrics": 66
+      },
+      {
+        "id": 7,
+        "author": 7,
+        "title": "Exploring New Hiking Destinations",
+        "body": "Some of the most exciting new hiking destinations around the world.",
+        "groupid": 1,
+        "metrics": 39
+      },
+      {
+        "id": 8,
+        "author": 8,
+        "title": "Books You Need to Read",
+        "body": "A collection of books that every reader should explore.",
+        "groupid": 4,
+        "metrics": 80
+      }
+    ],
+    "comments": [
+      {
+        "memberid": 1,
+        "body": "Great list! I’ve hiked a few of these already.",
+        "metrics": 12
+      },
+      {
+        "memberid": 2,
+        "body": "Interesting insights! I agree with your points on AI.",
+        "metrics": 45
+      },
+      {
+        "memberid": 3,
+        "body": "I’ve tried some of these recipes, they’re amazing!",
+        "metrics": 28
+      },
+      {
+        "memberid": 4,
+        "body": "Great suggestions, will definitely check out those books.",
+        "metrics": 37
+      },
+      {
+        "memberid": 5,
+        "body": "The future of AI looks very promising, exciting times ahead!",
+        "metrics": 64
+      },
+      {
+        "memberid": 6,
+        "body": "I love these hiking destinations, definitely on my list!",
+        "metrics": 53
+      },
+      {
+        "memberid": 7,
+        "body": "Nice post, I’ll try some of your recommended tools.",
+        "metrics": 24
+      },
+      {
+        "memberid": 8,
+        "body": "Thanks for sharing, I love reading and need to add some of these to my list.",
+        "metrics": 33
+      },
+      {
+        "memberid": 9,
+        "body": "Can’t wait to try these new recipes! Always looking for something new.",
+        "metrics": 19
+      },
+      {
+        "memberid": 10,
+        "body": "These trails are definitely worth exploring!",
+        "metrics": 50
+      },
+      {
+        "memberid": 1,
+        "body": "The new AI trends are incredible, I hope they improve our daily lives.",
+        "metrics": 13
+      },
+      {
+        "memberid": 2,
+        "body": "Your post really made me think about the future of food technology.",
+        "metrics": 29
+      },
+      {
+        "memberid": 3,
+        "body": "Great hiking spots, I would love to visit these soon.",
+        "metrics": 16
+      },
+      {
+        "memberid": 4,
+        "body": "These books seem like a must-read, thanks for the recommendations!",
+        "metrics": 58
+      },
+      {
+        "memberid": 5,
+        "body": "AI will change everything! I’m excited to see how it progresses.",
+        "metrics": 71
+      },
+      {
+        "memberid": 6,
+        "body": "Food is always a great topic, especially when it’s gourmet!",
+        "metrics": 22
+      },
+      {
+        "memberid": 7,
+        "body": "Love your posts, they’re always so informative!",
+        "metrics": 41
+      },
+      {
+        "memberid": 8,
+        "body": "Hiking is my favorite hobby, thanks for the inspiration!",
+        "metrics": 36
+      },
+      {
+        "memberid": 9,
+        "body": "AI in healthcare is something I’m especially excited about.",
+        "metrics": 27
+      },
+      {
+        "memberid": 10,
+        "body": "Thanks for the great book recommendations, can’t wait to read them all!",
+        "metrics": 48
+      }
+    ]
+  }
+  
